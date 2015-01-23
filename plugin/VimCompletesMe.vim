@@ -80,8 +80,8 @@ function! s:vim_completes_me(shift_tab)
 endfunction
 
 " Maps: {{{1
-inoremap <expr> <Tab> <SID>vim_completes_me(0)
-inoremap <expr> <S-Tab> <SID>vim_completes_me(1)
+" inoremap <expr> <Tab> <SID>vim_completes_me(0)
+" inoremap <expr> <S-Tab> <SID>vim_completes_me(1)
 
 " Autocmds {{{1
 augroup VCM
